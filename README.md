@@ -43,5 +43,15 @@ En la plataforma crearás un álbum y compartir con otros turistas las fotos de 
 
 :heavy_check_mark: `Funcionalidad 7:` Álbum de aves endémicas o migratorias que pudiste identificar y fotografiar durante el tour
 
+## Aplicación:
 
+https://github.com/user-attachments/assets/34d2101c-5ef6-4873-b3b5-9c61aaadcd33
+
+## Herramientas utilizadas:
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7ada552e-662f-498f-81e2-8590578ad915" /> 
+Android Studio
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/4889251d-72a1-4704-b17a-aa1e018b17c0" />
+Github
+
+## Acceso al proyecto:
 
