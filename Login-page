@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Título -->
+    <title>SonNica - Explorá el aviturismo en Nicaragua</title>
+
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="SonNica es una app de aviturismo para explorar y registrar aves en Nicaragua.">
+    <meta name="author" content="DeV2.0">
+
+    <!-- Fuentes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=League+Spartan:wght@400;700&family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/login.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- FIREBASE DB -->
+    <script type="module">
+        // Importar funciones necesarias del SDK de Firebase
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+
+        // Configuración de Firebase para SonNica
+        const firebaseConfig = {
+            apiKey: "AIzaSyAJM5X3jQUzqjnyzFJVPh6-9mqwPE7qejM",
+            authDomain: "argan-7f399.firebaseapp.com",  // Aún con nombre Argan (puede cambiarse si migras)
+            projectId: "argan-7f399",
+            storageBucket: "argan-7f399.appspot.com",
+            messagingSenderId: "868827471488",
+            appId: "1:868827471488:web:2f34bc3dbfde5908a91065",
+            measurementId: "G-QG6VT7D4T1"
+        };
+
+        // Inicializar Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+    <!-- Archivos JS -->
+    <script src="assets/login.js"></script>
+</head>
+<body>
+    <!-- ***** Preloader ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Final Preloader ***** -->
