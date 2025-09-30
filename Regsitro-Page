@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - SonNica</title>
+</head>
+<body>
+    <h2>Registrarse</h2>
+    <form>
+        <input type="text" placeholder="Nombre completo"><br>
+        <input type="email" placeholder="Correo electrónico"><br>
+        <input type="password" placeholder="Contraseña"><br>
+        <button>Crear cuenta</button>
+    </form>
+</body>
+</html>
+
